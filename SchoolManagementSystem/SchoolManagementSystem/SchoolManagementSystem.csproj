@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15063BD0-8CFA-4275-99FD-4E130B23FB4A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SchoolManagementSystem</RootNamespace>
+    <AssemblyName>SchoolManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accountant_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accountant_Form.Designer.cs">
+      <DependentUpon>Accountant_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BalanceStu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BalanceStu.Designer.cs">
+      <DependentUpon>BalanceStu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DemoStudentDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoStudentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemoStudentDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoStudentDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemoStudentDataSet1_Salary_Teacher_Form.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoStudentDataSet1_Salary_Teacher_Form.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemoStudentDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoStudentDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemoStudentDataSet_BalanceStu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoStudentDataSet_BalanceStu.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemoStudentDataSet_Login.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoStudentDataSet_Login.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemoStudentDataSet_Marks.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoStudentDataSet_Marks.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemoStudentDataSet_ShowStuAcc.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoStudentDataSet_ShowStuAcc.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemoStudentDataSet_Show_Accountant.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoStudentDataSet_Show_Accountant.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemoStudentDataSet_Show_Student.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoStudentDataSet_Show_Student.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemoStudentDataSet_Show_Teacher.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoStudentDataSet_Show_Teacher.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DemoStudentDataSet_Teacher.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoStudentDataSet_Teacher.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Form.Designer.cs">
+      <DependentUpon>Login_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Headmaster_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Headmaster_Form.Designer.cs">
+      <DependentUpon>Headmaster_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="queryClass.cs" />
+    <Compile Include="Salary_Teacher_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary_Teacher_Form.Designer.cs">
+      <DependentUpon>Salary_Teacher_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowStdByCls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowStdByCls.Designer.cs">
+      <DependentUpon>ShowStdByCls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowStuAcc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowStuAcc.Designer.cs">
+      <DependentUpon>ShowStuAcc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Show_Accountant_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show_Accountant_Form.Designer.cs">
+      <DependentUpon>Show_Accountant_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Show_Student_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show_Student_Form.Designer.cs">
+      <DependentUpon>Show_Student_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Show_Teacher_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show_Teacher_Form.Designer.cs">
+      <DependentUpon>Show_Teacher_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuFormProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuFormProfile.Designer.cs">
+      <DependentUpon>stuFormProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher_Form.Designer.cs">
+      <DependentUpon>Teacher_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Accountant_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Accountant_Form.Designer.cs">
+      <DependentUpon>Update_Accountant_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Student_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Student_Form.Designer.cs">
+      <DependentUpon>Update_Student_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Teacher_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Teacher_Form.Designer.cs">
+      <DependentUpon>Update_Teacher_Form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Accountant_Form.resx">
+      <DependentUpon>Accountant_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BalanceStu.resx">
+      <DependentUpon>BalanceStu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Headmaster_Form.resx">
+      <DependentUpon>Headmaster_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_Form.resx">
+      <DependentUpon>Login_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Salary_Teacher_Form.resx">
+      <DependentUpon>Salary_Teacher_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowStdByCls.resx">
+      <DependentUpon>ShowStdByCls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowStuAcc.resx">
+      <DependentUpon>ShowStuAcc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_Accountant_Form.resx">
+      <DependentUpon>Show_Accountant_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_Student_Form.resx">
+      <DependentUpon>Show_Student_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_Teacher_Form.resx">
+      <DependentUpon>Show_Teacher_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuFormProfile.resx">
+      <DependentUpon>stuFormProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher_Form.resx">
+      <DependentUpon>Teacher_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Accountant_Form.resx">
+      <DependentUpon>Update_Accountant_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Student_Form.resx">
+      <DependentUpon>Update_Student_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Teacher_Form.resx">
+      <DependentUpon>Update_Teacher_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DemoStudentDataSet.xsc">
+      <DependentUpon>DemoStudentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemoStudentDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemoStudentDataSet.xss">
+      <DependentUpon>DemoStudentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet1.xsc">
+      <DependentUpon>DemoStudentDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemoStudentDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemoStudentDataSet1.xss">
+      <DependentUpon>DemoStudentDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet1_Salary_Teacher_Form.xsc">
+      <DependentUpon>DemoStudentDataSet1_Salary_Teacher_Form.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet1_Salary_Teacher_Form.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemoStudentDataSet1_Salary_Teacher_Form.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemoStudentDataSet1_Salary_Teacher_Form.xss">
+      <DependentUpon>DemoStudentDataSet1_Salary_Teacher_Form.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet2.xsc">
+      <DependentUpon>DemoStudentDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemoStudentDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemoStudentDataSet2.xss">
+      <DependentUpon>DemoStudentDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet_BalanceStu.xsc">
+      <DependentUpon>DemoStudentDataSet_BalanceStu.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet_BalanceStu.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemoStudentDataSet_BalanceStu.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemoStudentDataSet_BalanceStu.xss">
+      <DependentUpon>DemoStudentDataSet_BalanceStu.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet_Login.xsc">
+      <DependentUpon>DemoStudentDataSet_Login.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet_Login.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemoStudentDataSet_Login.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemoStudentDataSet_Login.xss">
+      <DependentUpon>DemoStudentDataSet_Login.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet_Marks.xsc">
+      <DependentUpon>DemoStudentDataSet_Marks.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet_Marks.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemoStudentDataSet_Marks.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemoStudentDataSet_Marks.xss">
+      <DependentUpon>DemoStudentDataSet_Marks.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet_ShowStuAcc.xsc">
+      <DependentUpon>DemoStudentDataSet_ShowStuAcc.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet_ShowStuAcc.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemoStudentDataSet_ShowStuAcc.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemoStudentDataSet_ShowStuAcc.xss">
+      <DependentUpon>DemoStudentDataSet_ShowStuAcc.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet_Show_Accountant.xsc">
+      <DependentUpon>DemoStudentDataSet_Show_Accountant.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet_Show_Accountant.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemoStudentDataSet_Show_Accountant.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemoStudentDataSet_Show_Accountant.xss">
+      <DependentUpon>DemoStudentDataSet_Show_Accountant.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet_Show_Student.xsc">
+      <DependentUpon>DemoStudentDataSet_Show_Student.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet_Show_Student.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemoStudentDataSet_Show_Student.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemoStudentDataSet_Show_Student.xss">
+      <DependentUpon>DemoStudentDataSet_Show_Student.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet_Show_Teacher.xsc">
+      <DependentUpon>DemoStudentDataSet_Show_Teacher.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet_Show_Teacher.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemoStudentDataSet_Show_Teacher.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemoStudentDataSet_Show_Teacher.xss">
+      <DependentUpon>DemoStudentDataSet_Show_Teacher.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet_Teacher.xsc">
+      <DependentUpon>DemoStudentDataSet_Teacher.xsd</DependentUpon>
+    </None>
+    <None Include="DemoStudentDataSet_Teacher.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemoStudentDataSet_Teacher.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemoStudentDataSet_Teacher.xss">
+      <DependentUpon>DemoStudentDataSet_Teacher.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

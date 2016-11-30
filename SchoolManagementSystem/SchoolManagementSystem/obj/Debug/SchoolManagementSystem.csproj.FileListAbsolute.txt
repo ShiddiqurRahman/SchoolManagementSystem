@@ -1,0 +1,52 @@
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe.config
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.pdb
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Accountant_Form.resources
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Headmaster_Form.resources
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Login_Form.resources
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Properties.Resources.resources
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Show_Accountant_Form.resources
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Show_Student_Form.resources
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Show_Teacher_Form.resources
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Teacher_Form.resources
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Update_Accountant_Form.resources
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Update_Student_Form.resources
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Update_Teacher_Form.resources
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csproj.GenerateResource.Cache
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.exe
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.pdb
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.BalanceStu.resources
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.ShowStuAcc.resources
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.stuFormProfile.resources
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.ShowStdByCls.resources
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Salary_Teacher_Form.resources
+C:\Users\srsumon\Documents\Visual Studio 2015\Projects\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\mahmud\Desktop\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe.config
+C:\Users\mahmud\Desktop\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.exe
+C:\Users\mahmud\Desktop\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.pdb
+E:\grid 2\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe.config
+E:\grid 2\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.exe
+E:\grid 2\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.pdb
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe.config
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.exe
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.pdb
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.pdb
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csprojResolveAssemblyReference.cache
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Accountant_Form.resources
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.BalanceStu.resources
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Headmaster_Form.resources
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Login_Form.resources
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Properties.Resources.resources
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Salary_Teacher_Form.resources
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.ShowStdByCls.resources
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.ShowStuAcc.resources
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Show_Accountant_Form.resources
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Show_Student_Form.resources
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Show_Teacher_Form.resources
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.stuFormProfile.resources
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Teacher_Form.resources
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Update_Accountant_Form.resources
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Update_Student_Form.resources
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Update_Teacher_Form.resources
+D:\software\Programme\C# Project(Spring 15-26)\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csproj.GenerateResource.Cache
